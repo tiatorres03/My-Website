@@ -40,5 +40,9 @@ li a:hover {
 }
 body {
   background-color: pink;
-
+}
+.column{
+flex: 100%;
+max-width: 100%;
+padding: 0 4px;
 }
