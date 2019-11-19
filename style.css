@@ -41,8 +41,18 @@ li a:hover {
 body {
   background-color: pink;
 }
-.column{
-flex: 100%;
-max-width: 100%;
-padding: 0 4px;
+.fight{
+  display: grid;
+  margin: auto;
+  width: 90%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40vh 1fr 40vh 60vh;
+}
+.about{
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: 10vh 1fr 10vh 20vh;
+  width: 80%;
+  height: 50%;
+  margin: auto;
 }
